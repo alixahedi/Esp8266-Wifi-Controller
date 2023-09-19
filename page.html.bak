@@ -293,7 +293,6 @@
             user-select: none;
             margin-right: 20px;
             margin-left: 15px;
-            white-space: nowrap;
         }
 
         /* Hide the browser's default radio button */
