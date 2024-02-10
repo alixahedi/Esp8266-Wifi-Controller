@@ -7,11 +7,11 @@ This project works in 2 working modes.
 <br/>
 
 - Access point (a WiFi that you can connect to)
-- Station (if there is another WAFA in the place, connect the device to it)
+- Station (if there is another WiFi in the place, connect the device to it)
 
 <br/>
 
-The selection of the working mode of this project is available in the settings tab. (Photo no. 2) At first, after the program, the module will try to connect to a Wi-Fi, but because the SSID and Wi-Fi password have not yet been defined for the module, the attempt will be unsuccessful. And after 10 seconds, the module will create an access point named Cooler (if you use this project for another device, you can select the device name, web page title, and host address at the beginning of the Wifi_Controller.ino file). Also, this project has the ability to program through the web page in the update tab (OTA). Select the Export Compiled Binary option from the Sketch menu of the Arduino IDE software to create a binary file. Then upload it on the web page update page, then select the upload option. After the program is received by the module, it will be programmed and the module will be restarted.
+The selection of the working mode of this project is available in the settings tab. (Photo no. 2) At first, after the program, the module will try to connect to a WiFi, but because the SSID and WiFi password have not yet been defined for the module, the attempt will be unsuccessful. And after 10 seconds, the module will create an access point named Cooler (if you use this project for another device, you can select the device name, web page title, and host address at the beginning of the Wifi_Controller.ino file). Also, this project has the ability to program through the web page in the update tab (OTA). Select the Export Compiled Binary option from the Sketch menu of the Arduino IDE software to create a binary file. Then upload it on the web page update page, then select the upload option. After the program is received by the module, it will be programmed and the module will be restarted.
 <br/>
 <br/>
 <br/>
