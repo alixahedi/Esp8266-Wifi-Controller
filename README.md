@@ -1,47 +1,83 @@
-# Esp8266_Wifi_Controller
+# ESP8266 WiFi Controller
 
-This project enables you to **control the power of an electrical device** like the evaporative cooler I use for it!
-This project uses a web page to control the device. Like me, you can add this web page as a web application to your mobile software. Then, by clicking on the icon of this program, enter the web page of this device and control the desired device.
-This project works in 2 working modes.
+This project allows you to **wirelessly control the power of an electrical device**, such as an evaporative cooler! 🌬️
 
-<br/>
+With a built-in web interface, you can control the device from any browser. You can even **add the web page as a web application** to your mobile home screen for quick access. Just tap the icon and start controlling your device instantly.
 
-- Access point (a WiFi that you can connect to)
-- Station (if there is another WiFi in the place, connect the device to it)
+## 🔥 Features
+- 🛜 **Two operating modes**:
+  - **Access Point Mode**: Creates its own WiFi network for direct connection.
+  - **Station Mode**: Connects to an existing WiFi network.
+- 🎛️ **Web-based control panel** – No need for additional apps!
+- 🔧 **Easy configuration** – Set the device name, web page title, and host address in the `Wifi_Controller.ino` file.
+- ⚡ **Over-the-Air (OTA) updates** – Upload new firmware directly from the web page.
+- 🔄 **Auto-switching WiFi** – If no WiFi credentials are set, the device creates an Access Point.
 
-<br/>
+---
 
-The selection of the working mode of this project is available in the settings tab. (Photo no. 2) At first, after the program, the module will try to connect to a WiFi, but because the SSID and WiFi password have not yet been defined for the module, the attempt will be unsuccessful. And after 10 seconds, the module will create an access point named Cooler (if you use this project for another device, you can select the device name, web page title, and host address at the beginning of the Wifi_Controller.ino file). Also, this project has the ability to program through the web page in the update tab (OTA). Select the Export Compiled Binary option from the Sketch menu of the Arduino IDE software to create a binary file. Then upload it on the web page update page, then select the upload option. After the program is received by the module, it will be programmed and the module will be restarted.
-<br/>
-<br/>
-<br/>
+## 🚀 Getting Started
+1. **Flash the ESP8266** with the provided firmware using the **Arduino IDE**.
+2. On first startup, the module will try to connect to a WiFi network.
+   - If no credentials are stored, it will create an **Access Point named "Cooler"** (you can change this in the code).
+3. Connect to the device and access the **settings page** (📷 see below).
+4. Set up your WiFi credentials and **switch between modes** as needed.
+5. Control your device via the web interface!
+
+---
+
+## 🖥️ Web Interface
+
+### **Home Tab**
+Control the device easily from the web page.
 
 <a href="https://github.com/alixahedi/Esp8266_Wifi_Controller">
 <img align="center" alt="Home Tab" width="31%" src="@/../assests/images/home.jpg">
 </a>
+<br/>
 
-<br/>
-<br/>
+---
+
+### **Settings Tab**
+Configure the WiFi mode and update settings.
 
 <a href="https://github.com/alixahedi/Esp8266_Wifi_Controller">
 <img align="center" alt="Setting Tab" width="31%" src="@/../assests/images/setting.jpg">
 </a>
+<br/>
 
-<br/>
-<br/>
+---
+
+### **OTA Update**
+Upload new firmware remotely using **Over-the-Air updates**.
 
 <a href="https://github.com/alixahedi/Esp8266_Wifi_Controller">
 <img align="center" alt="Update" width="31%" src="@/../assests/images/update.jpg">
 </a>
-
-<br/>
-<br/>
 <br/>
 
-**Follow me on other platforms:**
+---
 
-<br/>
-<br/>
+## 🛠️ How to Update Firmware (OTA)
+1. **Compile the binary file**:
+   - In **Arduino IDE**, go to `Sketch` ➝ `Export Compiled Binary`.
+2. **Upload the `.bin` file** to the **Update tab** in the web interface.
+3. Click **Upload**, and the ESP8266 will restart with the new firmware!
+
+---
+
+## 🏗️ Customization
+Modify these values in `Wifi_Controller.ino` to personalize your device:
+```cpp
+#define DEVICE_NAME "Cooler"
+#define WEB_TITLE "Cooler Controller"
+#define HOST_ADDRESS "192.168.4.1"
+```
+Change them to fit your needs! 🎯
+
+---
+
+## 📌 Follow Me!
+Stay connected and follow my work on other platforms:
 
 <a href="https://twitter.com/alixahedi">
 <img align="left" alt="Alix | Twitter" width="22px" src="@/../assests/images/social/Twitter.png" />
@@ -55,3 +91,12 @@ The selection of the working mode of this project is available in the settings t
 <a href="https://www.instagram.com/Alixahedi">
 <img align="left" alt="Ali's Instagram" width="22px" src="@/../assests/images/social/insta.png" />
 </a>
+<br/>
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
+---
+🔧 *Developed by [alixahedi](https://github.com/alixahedi).*
