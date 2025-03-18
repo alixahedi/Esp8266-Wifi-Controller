@@ -76,27 +76,27 @@ Change them to fit your needs! 🎯
 
 ---
 
-## 📌 Follow Me!
-Stay connected and follow my work on other platforms:
-
-<a href="https://twitter.com/alixahedi">
-<img align="left" alt="Alix | Twitter" width="22px" src="@/../assests/images/social/Twitter.png" />
-</a>
-<a href="https://www.linkedin.com/in/ali-zahedi-b5a360158//">
-<img align="left" alt="Ali's LinkedIN" width="22px" src="@/../assests/images/social/Linkedin.png" />
-</a>
-<a href="https://www.facebook.com/Alixahedi/">
-<img align="left" alt="Ali's FaceBook" width="22px" src="@/../assests/images/social/fb.png" />
-</a>
-<a href="https://www.instagram.com/Alixahedi">
-<img align="left" alt="Ali's Instagram" width="22px" src="@/../assests/images/social/insta.png" />
-</a>
-<br/>
-
----
-
 ## 📜 License
 This project is licensed under the **MIT License**.
 
 ---
-🔧 *Developed by [alixahedi](https://github.com/alixahedi).*
+
+## 📞 Contact
+For questions or suggestions, feel free to reach out via email:
+📧 Alixahedi@gmail.com
+
+<br/>
+<a href="https://twitter.com/alixahedi">
+<img align="left" alt="Alix | Twitter" width="22px" src="https://github.com/alixahedi/alixahedi/blob/main/assests/img/social/Twitter.png" />
+</a>
+<a href="https://www.linkedin.com/in/ali-zahedi-b5a360158//">
+<img align="left" alt="Ali's LinkedIN" width="22px" src="https://github.com/alixahedi/alixahedi/blob/main/assests/img/social/Linkedin.png" />
+</a>
+<a href="https://www.facebook.com/Alixahedi/">
+<img align="left" alt="Ali's FaceBook" width="22px" src="https://github.com/alixahedi/alixahedi/blob/main/assests/img/social/fb.png" />
+</a>
+<a href="https://www.instagram.com/Alixahedi">
+<img align="left" alt="Ali's Instagram" width="22px" src="https://github.com/alixahedi/alixahedi/blob/main/assests/img/social/insta.png" />
+</a>
+<br/>
+
